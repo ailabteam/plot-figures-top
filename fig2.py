@@ -18,7 +18,7 @@ df = pd.DataFrame(data)
 #--------------------------------
 
 # Áp dụng style IEEE
-plt.style.use(['science', 'ieee'])
+plt.style.use(['science', 'ieee', 'no-latex'])
 
 fig, ax = plt.subplots(figsize=(7, 5))
 

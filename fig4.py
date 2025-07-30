@@ -11,7 +11,7 @@ accuracy = accuracy.clip(0.6, 1.0)
 #--------------------------------
 
 # Sử dụng style cơ bản, sạch sẽ
-plt.style.use(['science', 'grid'])
+plt.style.use(['science', 'grid', 'no-latex'])
 
 fig = plt.figure(figsize=(7, 7))
 gs = GridSpec(4, 4)

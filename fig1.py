@@ -10,7 +10,7 @@ loss = 0.05 + 0.8 * np.exp(-epochs / 15)
 #--------------------------------
 
 # Áp dụng style ACM cho khác biệt
-plt.style.use(['science', 'acm'])
+plt.style.use(['science', 'ieee', 'no-latex'])
 
 # Tạo một figure chứa 1 hàng, 2 cột subplot
 # figsize được điều chỉnh cho 2 subplot

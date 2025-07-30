@@ -10,7 +10,7 @@ std_times = np.array([0.008, 0.003, 0.005])
 #--------------------------------
 
 # Sử dụng style của Nature
-plt.style.use(['science', 'nature'])
+plt.style.use(['science', 'nature', 'no-latex'])
 
 fig, ax = plt.subplots(figsize=(6, 5))
 
